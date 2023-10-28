@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-website"
+version = "0.1.0"
+description = ""
+authors = ["Dun <dunxin.ong@outlook.com>"]
+readme = "README.md"
+packages = [{include = "django_website"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+django = "^4.2.6"
+ipykernel = "^6.25.2"
+pandas = "^2.1.1"
+boto3 = "^1.28.68"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
